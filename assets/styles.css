@@ -10,7 +10,7 @@
   }
 
   .header-row {
-    background-color: orange;
+    background-color: blue;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,10 +26,12 @@
     display: inline;
     padding: 5px;
     font-size: larger;
+  
   }
 
   .header-row a {
     text-decoration: none;
+    color: white;
   }
 
   .header-row a:hover {
@@ -39,11 +41,13 @@
   .row {
     padding: 100px;
     height: 75%;
+    background-image: url('images\download.png');
   }
 
   .row .box {
     padding: 20px;
     margin: 10px;
+    
   }
 
   .footer {
