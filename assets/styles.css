@@ -16,6 +16,11 @@
     align-items: center;
     position: sticky;
     top: 0px;
+    background-image: url('../images/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    z-index: 1000;
   }
 
   .header-row .box {
@@ -41,13 +46,16 @@
   .row {
     padding: 100px;
     height: 75%;
-    background-color:aqua;
-   
-  }
+    background-image: url('../images/bg1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
 
   .row .box {
     padding: 20px;
     margin: 10px;
+  
     
   }
 
